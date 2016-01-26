@@ -13,7 +13,7 @@ before_install:
   
 # Installs tool used for code coverage report
 install:
-  - sudo apt-get update 
+  - sudo apt-get update  
   - go get golang.org/x/tools/cmd/cover
 
 # Make folders for the reports
